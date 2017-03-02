@@ -9,7 +9,10 @@ namespace CreationalPatterns
             //AbstractFactory.Definition.Run();
             //AbstractFactory.Realworld.Run();
             //Builder.Definition.Run();
-            Builder.Realworld.Run();
+            //Builder.Realworld.Run();
+            //AbstractMethod.Definition.Run();
+            //FactoryMethod.Realword.Run();
+            Page page;
             Console.ReadKey();
         }
     }
