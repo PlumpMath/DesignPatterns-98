@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="AbstractFactory\Definition.cs" />
     <Compile Include="AbstractFactory\Realworld.cs" />
+    <Compile Include="Builder\Definition.cs" />
+    <Compile Include="Builder\Realworld.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
