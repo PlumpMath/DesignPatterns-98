@@ -9,7 +9,9 @@ namespace StructuralPatterns
             //Adapter.Definition.Run();
             //Adapter.Realworld.Run();
             //Bridge.Definition.Run();
-            Bridge.Realworld.Run();
+            //Bridge.Realworld.Run();
+            //Composite.Definition.Run();
+            Composite.Realword.Run();
             Console.ReadKey();
         }
     }
