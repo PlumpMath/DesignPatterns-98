@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StructuralPatterns
 {
@@ -10,6 +6,9 @@ namespace StructuralPatterns
     {
         static void Main(string[] args)
         {
+            //Adapter.Definition.Run();
+            Adapter.Realworld.Run();
+            Console.ReadKey();
         }
     }
 }
