@@ -2,22 +2,22 @@
 
 namespace StructuralPatterns.Bridge
 {
-    public interface IDrinkable
+    public abstract class Tea
     {
-        void Drink();
+        public virtual void Drink() { }
     }
 
-    public class ManDrink : IDrinkable
+    public class GreenTea : Tea
     {
-        public void Drink()
+        public override void Drink()
         {
             Console.WriteLine("Drink Green Tea.");
         }
     }
 
-    public class WomanDrink : IDrinkable
+    public class WomanTea : Tea
     {
-        public void Drink()
+        public override void Drink()
         {
             Console.WriteLine("Drink Red Tea.");
         }
@@ -25,7 +25,7 @@ namespace StructuralPatterns.Bridge
 
     public abstract class Human
     {
-        public IDrinkable DrinkBehavior { get; set; }
+        public Tea Meterial { get; set; }
 
         public virtual void DoAction()
         {
@@ -38,7 +38,7 @@ namespace StructuralPatterns.Bridge
         public override void DoAction()
         {
             Console.Write("Man ");
-            DrinkBehavior.Drink();
+            Meterial.Drink();
         }
     }
 
@@ -47,7 +47,7 @@ namespace StructuralPatterns.Bridge
         public override void DoAction()
         {
             Console.Write("Woman ");
-            DrinkBehavior.Drink();
+            Meterial.Drink();
         }
     }
 
@@ -55,10 +55,10 @@ namespace StructuralPatterns.Bridge
     {
         public static void Run()
         {
-            var human = new Man {DrinkBehavior = new ManDrink()};
+            var human = new Man { Meterial = new GreenTea()};
             human.DoAction();
 
-            human.DrinkBehavior = new WomanDrink();
+            human.Meterial = new WomanTea();
             human.DoAction();
         }
     }
