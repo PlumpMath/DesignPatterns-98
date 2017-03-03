@@ -51,6 +51,7 @@
     <Compile Include="Composite\Realword.cs" />
     <Compile Include="Decorator\Definition.cs" />
     <Compile Include="Decorator\Realword.cs" />
+    <Compile Include="Decorator\Realword1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
