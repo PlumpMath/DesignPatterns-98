@@ -49,6 +49,8 @@
     <Compile Include="Bridge\Realworld.cs" />
     <Compile Include="Composite\Definition.cs" />
     <Compile Include="Composite\Realword.cs" />
+    <Compile Include="Decorator\Definition.cs" />
+    <Compile Include="Decorator\Realword.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

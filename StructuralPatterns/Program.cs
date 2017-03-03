@@ -11,7 +11,9 @@ namespace StructuralPatterns
             //Bridge.Definition.Run();
             //Bridge.Realworld.Run();
             //Composite.Definition.Run();
-            Composite.Realword.Run();
+            //Composite.Realword.Run();
+            //Decorator.Definition.Run();
+            //Decorator.Realword.Run();
             Console.ReadKey();
         }
     }
