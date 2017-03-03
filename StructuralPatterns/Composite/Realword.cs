@@ -10,7 +10,7 @@ namespace StructuralPatterns.Composite
             Name = name;
         }
 
-        public string Name { get; set; }
+        public string Name { get; }
 
         public abstract void Add(Element element);
 
