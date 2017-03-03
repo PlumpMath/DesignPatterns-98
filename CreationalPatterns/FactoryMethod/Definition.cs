@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CreationalPatterns.FactoryMethod
 {
@@ -7,7 +6,7 @@ namespace CreationalPatterns.FactoryMethod
     {
         public static void Run()
         {
-            var product = new ProductACreator().CreateProduct();
+            var product = new ProductBCreator().CreateProduct();
             Console.WriteLine(product);
         }
     }
@@ -35,15 +34,15 @@ namespace CreationalPatterns.FactoryMethod
 
     public abstract class ProductCreator
     {
-        public virtual IProduct CreateProduct()
+        public virtual Product CreateProduct()
         {
-
+            return default(Product);
         }
     }
 
     public class ProductACreator : ProductCreator
     {
-        public override Product CareteProduct()
+        public override Product CreateProduct()
         {
             return new ProductA();
         }

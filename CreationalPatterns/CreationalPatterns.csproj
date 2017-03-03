@@ -47,6 +47,8 @@
     <Compile Include="AbstractFactory\Realworld.cs" />
     <Compile Include="Builder\Definition.cs" />
     <Compile Include="Builder\Realworld.cs" />
+    <Compile Include="FactoryMethod\Definition.cs" />
+    <Compile Include="FactoryMethod\Realword.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\Definition.cs" />

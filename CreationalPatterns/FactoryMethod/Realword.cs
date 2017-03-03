@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace CreationalPatterns.AbstractMethod
+namespace CreationalPatterns.FactoryMethod
 {
     public class Realword
     {
@@ -13,15 +14,15 @@ namespace CreationalPatterns.AbstractMethod
 
     public abstract class Page
     {
-        public virtual void Description()
+        public virtual string Description()
         {
-
+            return string.Empty;
         }
     }
 
     public class WordPage : Page
     {
-        public override void Description()
+        public override string Description()
         {
             return "WordPage";
         }
@@ -29,7 +30,7 @@ namespace CreationalPatterns.AbstractMethod
 
     public class ExcelPage : Page
     {
-        public override void Description()
+        public override string Description()
         {
             return "ExcelPage";
         }
@@ -37,7 +38,7 @@ namespace CreationalPatterns.AbstractMethod
 
     public class PowerPointPage : Page
     {
-        public override void Description()
+        public override string Description()
         {
             return "PowerPointPage";
         }
@@ -47,10 +48,9 @@ namespace CreationalPatterns.AbstractMethod
     {
         protected readonly IList<Page> Pages;
 
-        public Document()
+        protected Document()
         {
             Pages = new List<Page>();
-            CreatePages();
         }
 
         protected abstract void CreatePages();
@@ -66,7 +66,12 @@ namespace CreationalPatterns.AbstractMethod
 
     public class InnerDocument : Document
     {
-        protected override void CreatePages()
+        public InnerDocument()
+        {
+            CreatePages();
+        }
+
+        protected sealed override void CreatePages()
         {
             Pages.Add(new WordPage());
             Pages.Add(new ExcelPage());
@@ -76,7 +81,12 @@ namespace CreationalPatterns.AbstractMethod
 
     public class OutDocument : Document
     {
-        protected override void CreatePages()
+        public OutDocument()
+        {
+            CreatePages();
+        }
+
+        protected sealed override void CreatePages()
         {
             Pages.Add(new WordPage());
             Pages.Add(new ExcelPage());

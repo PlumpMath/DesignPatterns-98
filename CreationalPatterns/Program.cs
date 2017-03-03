@@ -15,7 +15,7 @@ namespace CreationalPatterns
             //Prototype.Definition.Run();
             //Prototype.Realworld.Run();
             //Singleton.Definition.Run();
-            Singleton.Realtime.Run();
+            //Singleton.Realtime.Run();
 
             Console.ReadKey();
         }
