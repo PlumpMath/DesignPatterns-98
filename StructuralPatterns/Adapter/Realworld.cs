@@ -2,11 +2,6 @@
 
 namespace StructuralPatterns.Adapter
 {
-    public class Compound
-    {
-        
-    }
-
     public class Client
     {
         public virtual void Paint()

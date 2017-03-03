@@ -7,7 +7,9 @@ namespace StructuralPatterns
         static void Main(string[] args)
         {
             //Adapter.Definition.Run();
-            Adapter.Realworld.Run();
+            //Adapter.Realworld.Run();
+            //Bridge.Definition.Run();
+            Bridge.Realworld.Run();
             Console.ReadKey();
         }
     }

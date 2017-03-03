@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Adapter\Definition.cs" />
     <Compile Include="Adapter\Realworld.cs" />
+    <Compile Include="Bridge\Definition.cs" />
+    <Compile Include="Bridge\Realworld.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
