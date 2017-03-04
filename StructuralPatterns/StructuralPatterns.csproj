@@ -52,12 +52,19 @@
     <Compile Include="Decorator\Definition.cs" />
     <Compile Include="Decorator\Realword.cs" />
     <Compile Include="Decorator\Realword1.cs" />
+    <Compile Include="Facade\Definition.cs" />
+    <Compile Include="Facade\Realtime.cs" />
+    <Compile Include="Flyweight\Definition.cs" />
+    <Compile Include="Flyweight\Realtime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Definition.cs" />
+    <Compile Include="Proxy\Realtime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

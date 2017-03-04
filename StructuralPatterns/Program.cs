@@ -14,7 +14,9 @@ namespace StructuralPatterns
             //Composite.Realword.Run();
             //Decorator.Definition.Run();
             //Decorator.Realword.Run();
-            Decorator.Realword1.Run();
+            //Decorator.Realword1.Run();
+            //Facade.Definition.Run();
+            Facade.Realtime.Run();
             Console.ReadKey();
         }
     }
