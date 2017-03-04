@@ -18,7 +18,9 @@ namespace StructuralPatterns
             //Facade.Definition.Run();
             //Facade.Realtime.Run();
             //Flyweight.Definition.Run();
-            Flyweight.Realtime.Run();
+            //Flyweight.Realtime.Run();
+            //Proxy.Definition.Run();
+            Proxy.Realtime.Run();
             Console.ReadKey();
         }
     }
