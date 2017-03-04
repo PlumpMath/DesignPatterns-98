@@ -16,7 +16,9 @@ namespace StructuralPatterns
             //Decorator.Realword.Run();
             //Decorator.Realword1.Run();
             //Facade.Definition.Run();
-            Facade.Realtime.Run();
+            //Facade.Realtime.Run();
+            //Flyweight.Definition.Run();
+            Flyweight.Realtime.Run();
             Console.ReadKey();
         }
     }
