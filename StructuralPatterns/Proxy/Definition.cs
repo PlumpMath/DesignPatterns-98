@@ -11,7 +11,7 @@ namespace StructuralPatterns.Proxy
     {
         public override void Request()
         {
-            Console.WriteLine("Called real subject request method.");
+            Console.WriteLine("Real subject request method is invoked.");
         }
     }
 
@@ -21,7 +21,7 @@ namespace StructuralPatterns.Proxy
 
         public override void Request()
         {
-            Console.WriteLine("Proxy request method is called.");
+            Console.WriteLine("Proxy request method is invoked.");
             _subject.Request();
         }
     }
