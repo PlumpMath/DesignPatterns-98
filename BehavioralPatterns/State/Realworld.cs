@@ -95,7 +95,7 @@ namespace BehavioralPatterns.State
             //No interst is paid.
         }
 
-        protected sealed override void Initialize()
+        protected override void Initialize()
         {
             Interest = 0;
             LowerLimit = -100;
@@ -193,7 +193,7 @@ namespace BehavioralPatterns.State
             UpperLimit = 1000000;
         }
 
-        protected virtual void StateChangeCheck()
+        protected override void StateChangeCheck()
         {
             if (Balance < 0)
                 Account.State = new RedState(this);
