@@ -51,6 +51,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State\Definition.cs" />
     <Compile Include="State\Realworld.cs" />
+    <Compile Include="TemplateMethod\Definition.cs" />
+    <Compile Include="TemplateMethod\Realworld.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -11,7 +11,9 @@ namespace BehavioralPatterns
             //ChainInResp.Definition.Run();
             //ChainInResp.Realworld.Run();
             //Command.Definition.Run();
-            Command.Realworld.Run();
+            //Command.Realworld.Run();
+            //TemplateMethod.Definition.Run();
+            TemplateMethod.Realworld.Run();
             Console.ReadKey();
         }
     }
