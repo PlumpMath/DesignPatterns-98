@@ -9,7 +9,9 @@ namespace BehavioralPatterns
             //State.Definition.Run();
             //State.Realworld.Run();
             //ChainInResp.Definition.Run();
-            ChainInResp.Realworld.Run();
+            //ChainInResp.Realworld.Run();
+            //Command.Definition.Run();
+            Command.Realworld.Run();
             Console.ReadKey();
         }
     }
