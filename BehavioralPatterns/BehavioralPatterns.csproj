@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category\Definition.cs" />
+    <Compile Include="Category\Realworld.cs" />
     <Compile Include="ChainInResp\Definition.cs" />
     <Compile Include="ChainInResp\Realworld.cs" />
     <Compile Include="Command\Definition.cs" />
