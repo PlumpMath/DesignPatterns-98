@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BehavioralPatterns.Category
+namespace BehavioralPatterns.Strategy
 {
     public abstract class Category
     {

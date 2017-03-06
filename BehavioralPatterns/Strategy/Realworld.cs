@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BehavioralPatterns.Category
+namespace BehavioralPatterns.Strategy
 {
     public abstract class SortCategory
     {
