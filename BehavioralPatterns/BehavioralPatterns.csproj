@@ -47,6 +47,8 @@
     <Compile Include="Mediator\Definition.cs" />
     <Compile Include="Memento\Realworld.cs" />
     <Compile Include="Memento\Definition.cs" />
+    <Compile Include="Observer\Definition.cs" />
+    <Compile Include="Observer\Realtime.cs" />
     <Compile Include="Strategy\Definition.cs" />
     <Compile Include="Strategy\Realworld.cs" />
     <Compile Include="ChainInResp\Definition.cs" />

@@ -45,9 +45,11 @@ namespace BehavioralPatterns.Memento
     {
         public static void Run()
         {
-            var originator = new Originator();
-            originator.Name = "Name1";
-            originator.Address = "Address1";
+            var originator = new Originator
+            {
+                Name = "Name1",
+                Address = "Address1"
+            };
             originator.DisplayBasicInfo();
             var caretaker = new Caretaker
             {
