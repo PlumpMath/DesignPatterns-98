@@ -59,9 +59,9 @@ namespace BehavioralPatterns.Interpreter
             Right = right;
         }
 
-        public OperationExpression Left { get; }
+        protected OperationExpression Left { get; }
 
-        public OperationExpression Right { get; }
+        protected OperationExpression Right { get; }
     }
 
     public class AddExpression: NonTerminalOperationExpression
