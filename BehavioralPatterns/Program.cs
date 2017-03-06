@@ -22,7 +22,8 @@ namespace BehavioralPatterns
             //Iterator.Realworld.Run();
             //Mediator.Definition.Run();
             //Mediator.Realworld.Run();
-            Memento.Definition.Run();
+            //Memento.Definition.Run();
+            Memento.Realworld.Run();
             Console.ReadKey();
         }
     }
