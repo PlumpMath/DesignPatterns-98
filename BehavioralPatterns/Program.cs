@@ -14,10 +14,12 @@ namespace BehavioralPatterns
             //Command.Realworld.Run();
             //TemplateMethod.Definition.Run();
             //TemplateMethod.Realworld.Run();
-            //Category.Definition.Run();
-            //Category.Realworld.Run();
+            //Strategy.Definition.Run();
+            //Strategy.Realworld.Run();
             //Interpreter.Definition.Run();
-            Interpreter.Realworld.Run();
+            //Interpreter.Realworld.Run();
+            //Iterator.Definition.Run();
+            Iterator.Realworld.Run();
             Console.ReadKey();
         }
     }

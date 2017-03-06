@@ -43,14 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Category\Definition.cs" />
-    <Compile Include="Category\Realworld.cs" />
+    <Compile Include="Strategy\Definition.cs" />
+    <Compile Include="Strategy\Realworld.cs" />
     <Compile Include="ChainInResp\Definition.cs" />
     <Compile Include="ChainInResp\Realworld.cs" />
     <Compile Include="Command\Definition.cs" />
     <Compile Include="Command\Realworld.cs" />
     <Compile Include="Interpreter\Definition.cs" />
     <Compile Include="Interpreter\Realworld.cs" />
+    <Compile Include="Iterator\Definition.cs" />
+    <Compile Include="Iterator\Realworld.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State\Definition.cs" />
