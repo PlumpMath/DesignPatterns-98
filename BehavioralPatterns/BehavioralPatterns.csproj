@@ -65,6 +65,8 @@
     <Compile Include="State\Realworld.cs" />
     <Compile Include="TemplateMethod\Definition.cs" />
     <Compile Include="TemplateMethod\Realworld.cs" />
+    <Compile Include="Visitor\Definiton.cs" />
+    <Compile Include="Visitor\Realworld.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

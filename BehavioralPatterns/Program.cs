@@ -25,7 +25,9 @@ namespace BehavioralPatterns
             //Memento.Definition.Run();
             //Memento.Realworld.Run();
             //Observer.Definition.Run();
-            Observer.Realtime.Run();
+            //Observer.Realtime.Run();
+            //Visitor.Definiton.Run();
+            Visitor.Realworld.Run();
             Console.ReadKey();
         }
     }
