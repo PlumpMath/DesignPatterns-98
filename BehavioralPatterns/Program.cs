@@ -15,7 +15,9 @@ namespace BehavioralPatterns
             //TemplateMethod.Definition.Run();
             //TemplateMethod.Realworld.Run();
             //Category.Definition.Run();
-            Category.Realworld.Run();
+            //Category.Realworld.Run();
+            //Interpreter.Definition.Run();
+            Interpreter.Realworld.Run();
             Console.ReadKey();
         }
     }

@@ -49,6 +49,8 @@
     <Compile Include="ChainInResp\Realworld.cs" />
     <Compile Include="Command\Definition.cs" />
     <Compile Include="Command\Realworld.cs" />
+    <Compile Include="Interpreter\Definition.cs" />
+    <Compile Include="Interpreter\Realworld.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State\Definition.cs" />
