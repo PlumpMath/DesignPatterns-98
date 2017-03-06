@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mediator\Realworld.cs" />
+    <Compile Include="Mediator\Definition.cs" />
     <Compile Include="Strategy\Definition.cs" />
     <Compile Include="Strategy\Realworld.cs" />
     <Compile Include="ChainInResp\Definition.cs" />

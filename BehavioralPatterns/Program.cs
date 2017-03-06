@@ -19,7 +19,9 @@ namespace BehavioralPatterns
             //Interpreter.Definition.Run();
             //Interpreter.Realworld.Run();
             //Iterator.Definition.Run();
-            Iterator.Realworld.Run();
+            //Iterator.Realworld.Run();
+            //Mediator.Definition.Run();
+            Mediator.Realworld.Run();
             Console.ReadKey();
         }
     }
